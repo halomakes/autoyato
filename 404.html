@@ -135,7 +135,7 @@
         }
 
         const ay = new AutoYato();
-        ay.initialize(window.location.pathname.replace(/\W/g, ''));
+        ay.initialize(window.location.pathname.toLocaleLowerCase().replace(/\W/g, ''));
     </script>
     <style>
         html {
