@@ -97,7 +97,7 @@
                 console.info(`Initializing for topic ${topic}`);
                 this.binder = new GravyBinder(this);
                 this.sources = this.getSources();
-                this.topic = topic && this.containsKey(this.sources)
+                this.topic = topic && this.containsKey(this.sources, topic)
                     ? this.getTopic(topic)
                     : this.getRandomTopic();
                 this.setTextFields();
