@@ -1,9 +1,9 @@
 language: node_js
-node_js: 10
+node_js: 12
 before_script:
   - npm install -g @babel/core @babel/cli
 script:
-  - npx babel site.js --out-file site.js
+  - npx babel site.js --out-file site.js --plugins=@babel/plugin-syntax-class-properties
   - cp index.html 404.html
 deploy:
   provider: pages
