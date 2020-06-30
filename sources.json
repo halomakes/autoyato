@@ -1,0 +1,46 @@
+{
+    "windows": {
+        "topic": "Windows",
+        "derogatory": [
+            "using malware",
+            "using spyware",
+            "using winblows",
+            "having spyware for an operating system"
+        ],
+        "alternative": [
+            "use linux"
+        ]
+    },
+    "windowsgames": {
+        "topic": "Gaming on Windows",
+        "derogatory": [
+            "gaming on windows",
+            "playing games on spyware"
+        ],
+        "alternative": [
+            "run the exact same software but with a bunch of compatibility tools",
+            "think that any games that don't work on Linux just aren't worth playing"
+        ]
+    },
+    "webirc": {
+        "topic": "A web-based IRC client",
+        "derogatory": [
+            "using chat in a browser",
+            "using webchat",
+            "not using a native app for IRC"
+        ],
+        "alternative": [
+            "read raw irc traffic with an oscilloscope",
+            "only use native IRC clients even if the interface is shit"
+        ]
+    },
+    "gui": {
+        "topic": "Using a GUI",
+        "derogatory": [
+            "not doing everything via command line"
+        ],
+        "alternative": [
+            "keep a Model M keyboard hooked up to my phone at all times for CLI use"
+        ]
+    }
+}
