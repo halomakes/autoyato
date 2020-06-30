@@ -1,9 +1,9 @@
 language: node_js
 node_js: 12
 before_script:
-  - npm install -g @babel/core @babel/cli @babel/plugin-syntax-class-properties
+  - npm install --save-dev @babel/core @babel/cli @babel/plugin-syntax-class-properties @babel/plugin-proposal-class-properties @babel/preset-env @babel/preset-flow
 script:
-  - npx babel site.js --out-file site.js --plugins=@babel/plugin-syntax-class-properties
+  - npx babel site.js --out-file site.js --plugins=@babel/plugin-syntax-class-properties,@babel/proposal-class-properties --presets=@babel/preset-env
   - cp index.html 404.html
 deploy:
   provider: pages
