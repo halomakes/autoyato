@@ -1,0 +1,45 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automatic Yato Conversation Generator</title>
+    <link rel="stylesheet" href="/site.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="subject">
+            > Someone mentions <span class="templated" data-display="this.subject"></span>.
+        </div>
+        <div class="chatlog">
+            <div class="message" data-show="this.ticks > 1">
+                <span class="sender">Yato:</span>
+                <span class="content">
+                    Imagine <span class="templated" data-display="this.derogatory"></span>
+                </span>
+            </div>
+            <div class="message" data-show="this.ticks > 2">
+                <span class="sender">Yato:</span>
+                <span class="content">
+                    I <span class="templated" data-display="this.alternative"></span>
+                </span>
+            </div>
+            <div class="message" data-show="this.ticks > 3">
+                <span class="sender">Yato:</span>
+                <span class="content">
+                    Anything else is fucking garbage
+                </span>
+            </div>
+            <div class="message" data-show="this.ticks > 4">
+                <span class="sender">Yato:</span>
+                <span class="content">
+                    :)
+                </span>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="//unpkg.com/gravy-bind/dist.browser/index.js"></script>
+    <script type="text/javascript" src="/site.js"></script>
+</body>
+</html>
