@@ -5,6 +5,7 @@
             "using malware",
             "using spyware",
             "using winblows",
+            "using wangblows",
             "having spyware for an operating system"
         ],
         "alternative": [
@@ -41,6 +42,36 @@
         ],
         "alternative": [
             "keep a Model M keyboard hooked up to my phone at all times for CLI use"
+        ]
+    },
+    "electron": {
+        "topic": "Electron Apps",
+        "derogatory": [
+            "using fake apps",
+            "using a Chrome window instead of real software"
+        ],
+        "alternative": [
+            "only use native apps, even if they suck",
+            "only use native apps"
+        ]
+    },
+    "csharp": {
+        "topic": "C#",
+        "derogatory": [
+            "using a shitty programming language",
+            "not using Java"
+        ],
+        "alternative": [
+            "am not very familiar with it but it probably sucks.  I prefer Java"
+        ]
+    },
+    "haloeasy": {
+        "topic": "Playing Halo on a difficulty below Legendary",
+        "derogatory": [
+            "playing on easy mode"
+        ],
+        "alternative": [
+            "solo LASO all day, every day"
         ]
     }
 }

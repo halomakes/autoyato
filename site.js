@@ -37,7 +37,7 @@ class AutoYato {
 
     getTopic = topicName => this.sources[topicName];
 
-    loadSources = topic => fetch('/sources.json').then(r => r.json().then(j => {
+    loadSources = topic => fetch('/topics.json').then(r => r.json().then(j => {
         this.sources = j;
         this.topic = topic && this.containsKey(this.sources, topic)
             ? this.getTopic(topic)
